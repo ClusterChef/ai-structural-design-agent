@@ -18,7 +18,7 @@ In civil and construction work, going from an architectural plan to a structural
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/ai-structural-design-agent.git
+git clone https://github.com/ClusterChef/ai-structural-design-agent.git
 cd ai-structural-design-agent
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
