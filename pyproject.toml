@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structural-agent"
+version = "0.1.0"
+description = "AI agent system: AutoCAD plan to preliminary structural design, with a human engineer in the loop"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["ezdxf>=1.1", "numpy>=1.24", "openseespy>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

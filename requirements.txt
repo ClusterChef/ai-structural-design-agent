@@ -1,0 +1,4 @@
+ezdxf>=1.1
+numpy>=1.24
+openseespy>=3.5
+pytest>=7.0
